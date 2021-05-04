@@ -1,0 +1,203 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+.video-views-text {
+    color: #808080;
+    font-weight: 900;
+    font-size: 0.8em;
+}
+.suggestion-video-title {
+    font-weight: 800;
+    font-size: 0.9em;
+}
+.suggestion-video-views {
+    font-size: 0.8em;
+    color: #808080;
+    font-weight: 600;
+}
+.parent {
+    display: flex;
+    flex-direction: column;
+}
+header {
+    margin-left: 2%;
+    margin-right: 2%;
+    height: 50px;
+    width: 96%;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 1em;
+}
+.menu-img {
+    width: 2em;
+    height: 2em;
+    margin-top: 1em;
+}
+.logo-img {
+    width: 5em;
+    height: 2em;
+    margin-top: 1em;
+}
+.search-bar-parent {
+    height: 70%;
+    width: 50%;
+    display: flex;
+    margin-top: 1em;
+}
+.search-bar{
+    height: 2em;
+    width: 70%;
+    border: 1px solid #C0C0C0;
+}
+::-webkit-input-placeholder { 
+    font-size: 1.3em;
+    padding-left: 7px;
+  }
+.btn-search {
+    width: 3.5em;
+    height: 2.3em;
+    border: 1px solid #C0C0C0;
+    border-left: none;
+}
+.search-img, .voice-img, .bell-img, .account-img {
+    width: 2em;
+    height: 2em;
+}
+.bell-img, .account-img {
+    margin-right: 0.5em;
+    margin-top: 1em;
+}
+.menu-img, .logo-img {
+    margin-left: 0.5em;
+}
+.video-desc {
+    display: flex;
+    width: 96%;
+    margin-left: 2%;
+    justify-content: space-between;
+}
+.video-views {
+    flex: 0 0 60%;
+}
+.video-like {
+    flex: 0 0 30%;
+    display: flex;
+    justify-content: space-between;
+}
+.video-like-txt {
+    font-size: 0.8em;
+    margin-left: 5px;
+}
+.dog-account {
+    display: flex;
+}
+.main-content-parent {
+    display: flex;
+    flex-direction: column;
+    background-color: #F5F5F5;
+}
+.content-side, .aside {
+    flex: 0 0 96%;
+    padding-top: 1em;
+}
+.video-parent {
+    height: 300px;
+}
+.main-video {
+    width: 96%;
+    height: 100%;
+    margin-left: 2%;
+}
+.vid-title {
+    margin-left: 2%;
+}
+.dog-account-parent {
+    width: 96%;
+    margin-left: 2%;
+    margin-right: 2%;
+    display: flex;
+    justify-content: space-between;
+}
+.dog-account {
+    display: flex;
+}
+.dog-img {
+    width: 65px;
+    height: 65px;
+    border-radius: 50%;
+    margin-bottom: 0;
+}
+.dog-account-title {
+    font-weight: 700px;
+    font-size: 1em;
+    margin-left: 1em;
+    margin-bottom: 0;
+}
+.subscribe {
+    margin-right: 2%;
+    margin-bottom: 0;
+}
+.video-cap-parent {
+    width: 57.6%;
+    margin-right: 25%;
+    margin-left: 17.4%;
+    margin-top: 0;
+    padding: 0;
+}
+.video-cap {
+    margin-top: 0;
+    font-size: 1em;
+    font-weight: 600;
+    
+}
+aside {
+    margin-left: 1em;
+}
+.suggestion-tags-parent {
+    display: flex;
+    max-width: 70%;
+}
+.suggestion-tags {
+    background-color: #DCDCDC;
+    border: 1px solid #A9A9A9;
+    border-radius: 20px;
+    height: 2em;
+    min-width: 2em; 
+    text-align: center;
+    margin-bottom: 1em;
+}
+.suggestion-video-parent {
+    display: flex;
+    margin-bottom: 1em;
+}
+.suggestion-video {
+    height: 160px;
+    width: 225px;
+}
+.suggestion-video-desc {
+    max-width: 70%;
+    margin-left: 1em;
+    flex: 0 0 40%;
+}
+@media (min-width: 800px) {
+    .main-content-parent {
+        flex-direction: row;
+
+    }
+    .content-side {
+        flex: 1 1 50%;
+        margin-left: 6%;
+    }
+    .aside {
+        flex: 1 1 25%;
+        margin-right: 6%;
+    }
+    .video-cap-parent {
+        margin-left: 12.5%;
+    }
+    .suggestion-tags {
+        margin-right: 1em;
+    }
+}
